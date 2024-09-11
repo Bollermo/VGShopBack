@@ -9,9 +9,10 @@ const {registerSchema, updateSchema} = require('./helpers/validation/usersSchema
 const app = express();
 
 var corsOptions = {
-    origin: 'http://localhost:8000',
+    origin: ['http://localhost:8080', 'http://localhost:8000'],
     optionsSuccessStatus: 200
 }
+
 
 app.use(express.json());
 app.use(cors(corsOptions));

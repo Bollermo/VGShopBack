@@ -1,0 +1,3 @@
+Start-Process node -ArgumentList "app.js"
+Start-Process node -ArgumentList "authApp.js"
+Start-Process node -ArgumentList "GUIapp.js"
